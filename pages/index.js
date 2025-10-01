@@ -35,7 +35,7 @@ export default function Home(){
       </header>
 
       {page==='home' && (
-        <section className="hero" style={{backgroundImage:`url('/hero-nocte.jpg')`}}>
+        <section className="hero" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1200&q=80)'}}>
           <div style={{textAlign:'center'}}>
             <h1 className="font-serif" style={{fontSize:48,margin:0}}>The Silent Luxury</h1>
             <p style={{color:'rgba(255,255,255,0.7)',maxWidth:600,margin:'20px auto'}}>Born of the night. Crafted for eternity. Discover limited drops & signature pieces.</p>
